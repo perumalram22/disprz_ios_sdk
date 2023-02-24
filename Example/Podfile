@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'disprzSdk_Example' do
+  pod 'disprzSdk', :path => '../'
+
+  target 'disprzSdk_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
