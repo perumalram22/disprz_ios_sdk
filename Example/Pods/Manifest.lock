@@ -1,5 +1,5 @@
 PODS:
-  - disprzSdk (0.1.0)
+  - disprzSdk (0.1.1)
   - GoogleMaps (5.1.0):
     - GoogleMaps/Maps (= 5.1.0)
   - GoogleMaps/Base (5.1.0)
@@ -29,7 +29,7 @@ CHECKOUT OPTIONS:
     :tag: 3.1.8
 
 SPEC CHECKSUMS:
-  disprzSdk: 14d779a4f359a7579e46b7ecc40e0d3387dabb8e
+  disprzSdk: 2d8aedf32c4b9220da4219ed267961d481c998bf
   GoogleMaps: 086ae1dab659eaa7339bdb30fc88e2f44e7c597c
   lottie-ios: 48fac6be217c76937e36e340e2d09cf7b10b7f5f
 
