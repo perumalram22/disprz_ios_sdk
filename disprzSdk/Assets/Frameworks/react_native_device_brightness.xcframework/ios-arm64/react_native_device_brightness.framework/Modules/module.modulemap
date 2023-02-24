@@ -1,0 +1,6 @@
+framework module react_native_device_brightness {
+  umbrella header "react-native-device-brightness-umbrella.h"
+
+  export *
+  module * { export * }
+}

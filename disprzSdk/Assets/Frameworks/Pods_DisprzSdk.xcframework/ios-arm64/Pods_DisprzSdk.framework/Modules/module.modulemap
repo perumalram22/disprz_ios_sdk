@@ -1,0 +1,6 @@
+framework module Pods_DisprzSdk {
+  umbrella header "Pods-DisprzSdk-umbrella.h"
+
+  export *
+  module * { export * }
+}

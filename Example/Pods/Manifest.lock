@@ -1,0 +1,16 @@
+PODS:
+  - disprzSdk (0.1.0)
+
+DEPENDENCIES:
+  - disprzSdk (from `../`)
+
+EXTERNAL SOURCES:
+  disprzSdk:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  disprzSdk: f03f6a69303f0845a3b2d3e1daee8007d0db71ff
+
+PODFILE CHECKSUM: 563bcb87bb15d324039b02310f2dc7318c08525e
+
+COCOAPODS: 1.11.3

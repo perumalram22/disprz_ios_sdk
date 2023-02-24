@@ -1,0 +1,11 @@
+framework module DisprzSdk {
+  umbrella header "DisprzSdk.h"
+
+  export *
+  module * { export * }
+}
+
+module DisprzSdk.Swift {
+  header "DisprzSdk-Swift.h"
+  requires objc
+}

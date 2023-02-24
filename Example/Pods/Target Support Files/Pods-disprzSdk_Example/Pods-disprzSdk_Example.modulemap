@@ -1,0 +1,6 @@
+framework module Pods_disprzSdk_Example {
+  umbrella header "Pods-disprzSdk_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

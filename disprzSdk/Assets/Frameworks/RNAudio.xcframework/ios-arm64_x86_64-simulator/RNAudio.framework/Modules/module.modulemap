@@ -1,0 +1,6 @@
+framework module RNAudio {
+  umbrella header "RNAudio-umbrella.h"
+
+  export *
+  module * { export * }
+}

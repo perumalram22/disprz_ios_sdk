@@ -1,0 +1,6 @@
+framework module Pods_disprzSdk_Tests {
+  umbrella header "Pods-disprzSdk_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

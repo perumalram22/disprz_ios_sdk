@@ -1,0 +1,6 @@
+framework module disprzSdk {
+  umbrella header "disprzSdk-umbrella.h"
+
+  export *
+  module * { export * }
+}

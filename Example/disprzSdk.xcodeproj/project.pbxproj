@@ -29,11 +29,11 @@
 
 /* Begin PBXFileReference section */
 		0BD267EE7F551E177E7C5E72 /* Pods_disprzSdk_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_disprzSdk_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		16A9C9B47FA904F8DC72973F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		16A9C9B47FA904F8DC72973F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		2A86620E36C71CB17DB89503 /* Pods-disprzSdk_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-disprzSdk_Example.debug.xcconfig"; path = "Target Support Files/Pods-disprzSdk_Example/Pods-disprzSdk_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		34E856F25D63BD51DD1324EE /* Pods-disprzSdk_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-disprzSdk_Example.release.xcconfig"; path = "Target Support Files/Pods-disprzSdk_Example/Pods-disprzSdk_Example.release.xcconfig"; sourceTree = "<group>"; };
 		47BC082136D9E92E208BDEE1 /* Pods-disprzSdk_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-disprzSdk_Tests.debug.xcconfig"; path = "Target Support Files/Pods-disprzSdk_Tests/Pods-disprzSdk_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		5D54C78CD5F291FFD4439124 /* disprzSdk.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = disprzSdk.podspec; path = ../disprzSdk.podspec; sourceTree = "<group>"; };
+		5D54C78CD5F291FFD4439124 /* disprzSdk.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = disprzSdk.podspec; path = ../disprzSdk.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		607FACD01AFB9204008FA782 /* disprzSdk_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = disprzSdk_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -46,7 +46,7 @@
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		8D67CC4C63DE45000B646F68 /* Pods-disprzSdk_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-disprzSdk_Tests.release.xcconfig"; path = "Target Support Files/Pods-disprzSdk_Tests/Pods-disprzSdk_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		90437D6E502DE3E06D827D1D /* Pods_disprzSdk_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_disprzSdk_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A67A4ACA04B7D71C91786F3C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		A67A4ACA04B7D71C91786F3C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,7 +86,6 @@
 				47BC082136D9E92E208BDEE1 /* Pods-disprzSdk_Tests.debug.xcconfig */,
 				8D67CC4C63DE45000B646F68 /* Pods-disprzSdk_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -314,10 +314,12 @@
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-disprzSdk_Example/Pods-disprzSdk_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/disprzSdk/disprzSdk.framework",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/disprzSdk/DisprzSdk.framework/DisprzSdk",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/disprzSdk.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DisprzSdk.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
