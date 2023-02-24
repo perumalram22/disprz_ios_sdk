@@ -1,16 +1,27 @@
 PODS:
   - disprzSdk (0.1.0)
+  - GoogleMaps (5.1.0):
+    - GoogleMaps/Maps (= 5.1.0)
+  - GoogleMaps/Base (5.1.0)
+  - GoogleMaps/Maps (5.1.0):
+    - GoogleMaps/Base
 
 DEPENDENCIES:
   - disprzSdk (from `../`)
+  - GoogleMaps (= 5.1.0)
+
+SPEC REPOS:
+  trunk:
+    - GoogleMaps
 
 EXTERNAL SOURCES:
   disprzSdk:
     :path: "../"
 
 SPEC CHECKSUMS:
-  disprzSdk: f03f6a69303f0845a3b2d3e1daee8007d0db71ff
+  disprzSdk: 6e16b7930361a90127dafe807bcd82d9329c2a21
+  GoogleMaps: 086ae1dab659eaa7339bdb30fc88e2f44e7c597c
 
-PODFILE CHECKSUM: 563bcb87bb15d324039b02310f2dc7318c08525e
+PODFILE CHECKSUM: f4738186c23fd68ba5fe7bd02bc85f1053e5a1fd
 
 COCOAPODS: 1.11.3

@@ -6,39 +6,58 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXAggregateTarget section */
+		E5B4BBC6DD552AC8943C7E22772FC1D3 /* GoogleMaps */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 46921981F609C5BA3CB72EC4EA41299D /* Build configuration list for PBXAggregateTarget "GoogleMaps" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = GoogleMaps;
+		};
+/* End PBXAggregateTarget section */
+
 /* Begin PBXBuildFile section */
-		0BD9A576E5D86D5352A03671345B8DD2 /* Pods-disprzSdk_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 36B9CAABEB29C13AE3DAFF20AC3E5916 /* Pods-disprzSdk_Example-dummy.m */; };
-		1010CA97BDAFE4AF1B05F63FCA8E46E1 /* assets in Resources */ = {isa = PBXBuildFile; fileRef = 06137010CE5B5B4DDC910ABF5924239F /* assets */; };
-		1B79DDAF22D2B025988CD4F64488AD0C /* Pods-disprzSdk_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E6151C85E9441535384AAFC415C1C53B /* Pods-disprzSdk_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0C01DF55BF8E91269651FD6586DD80E7 /* Pods-disprzSdk_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AD46F10906368F279B16F5FEC5F2C81E /* Pods-disprzSdk_Example-dummy.m */; };
+		1B79DDAF22D2B025988CD4F64488AD0C /* Pods-disprzSdk_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4EBE2A37BF8386B728E84B92982B0719 /* Pods-disprzSdk_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		318E52CD033820836FE431BBF9F197F2 /* DisprzSdkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DD21EAF7F2D92C11170972D66F47998 /* DisprzSdkViewController.swift */; };
 		339DAB7903C84330F8E2408A19F14753 /* DisprzSdk.h in Headers */ = {isa = PBXBuildFile; fileRef = C9458A13B66F995AAA7DFEADF9A13836 /* DisprzSdk.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		347E175991201C173926ECB1627C11D4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		4D9FF4CA8912897F297F10B9D45EB3A8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		83ADC6D5F5A3E79B5220E34A5B493DEE /* rnsdk.jsbundle in Resources */ = {isa = PBXBuildFile; fileRef = CFE2BBE34C750F8508EFAEDEB933D54A /* rnsdk.jsbundle */; };
-		9CFF93E41A4CCA383C428008C183C3DA /* Pods-disprzSdk_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DD5CEE7C39BE4E076754B854764B5DB3 /* Pods-disprzSdk_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		80D1DAF637DE38EE4FFFB21FBDC353EE /* Pods-disprzSdk_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 49D05440F57E248C69AF222DDE83A5B1 /* Pods-disprzSdk_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		926959B3A9399A57133F1C5D92EC355E /* rnsdk.jsbundle in Resources */ = {isa = PBXBuildFile; fileRef = CFE2BBE34C750F8508EFAEDEB933D54A /* rnsdk.jsbundle */; };
 		9E900232770499346368691DFB45C992 /* disprzSdk-disprzSdk in Resources */ = {isa = PBXBuildFile; fileRef = 81233D3CBBA6904524D0310CDE87DA27 /* disprzSdk-disprzSdk */; };
-		A818E0CFC37DF29F873A6194DD7A3594 /* Pods-disprzSdk_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 351FDDF996F39A9A100E9F6C42DE677D /* Pods-disprzSdk_Tests-dummy.m */; };
+		A43760C69144CCECEB5A7326EA75E507 /* assets in Resources */ = {isa = PBXBuildFile; fileRef = 06137010CE5B5B4DDC910ABF5924239F /* assets */; };
+		A818E0CFC37DF29F873A6194DD7A3594 /* Pods-disprzSdk_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A562E7C79C7D435C1EEB2B46862521A2 /* Pods-disprzSdk_Tests-dummy.m */; };
 		C97C9ABF190601C21F0965D6B434EC22 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		D3DBE34668412570D5B19C2326DEA83F /* disprzSdk-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 567BFA00329684E191926F80D9C18D94 /* disprzSdk-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EAC2128AC827933FA9ABA591E4B1D2FF /* disprzSdk-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B852E6DBD5257588C91AEDBE82BAB686 /* disprzSdk-dummy.m */; };
+		FFC69A1B78AF2D4BB0D426A9E13E1F09 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		2772CDBE213D077DE49CADD7A9B95C71 /* PBXContainerItemProxy */ = {
+		1ADFB811C11167BA83FEA90B4C1CB462 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 09F4795B28B8C447376DE0DCBD11AE36;
 			remoteInfo = disprzSdk;
 		};
-		E5321DA51EEDCFA78885BA8F7092E467 /* PBXContainerItemProxy */ = {
+		4392F65625A8D64D8AEB5B90ADC448AE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E5B4BBC6DD552AC8943C7E22772FC1D3;
+			remoteInfo = GoogleMaps;
+		};
+		6C6DF65D7A874E16E37C25E8163C9333 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 246F56328A772FE99615CE6E7861E9C5;
 			remoteInfo = "Pods-disprzSdk_Example";
 		};
-		F8C071932CC92D792CC38D21EA7C0084 /* PBXContainerItemProxy */ = {
+		9FD957544F6086575DE361DBC1A0CDC8 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -48,38 +67,41 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		01AF48CF5646ADAB5D7324A8169AFF03 /* GoogleMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMaps.framework; path = Maps/Frameworks/GoogleMaps.framework; sourceTree = "<group>"; };
 		06137010CE5B5B4DDC910ABF5924239F /* assets */ = {isa = PBXFileReference; includeInIndex = 1; name = assets; path = disprzSdk/Assets/Resources/assets; sourceTree = "<group>"; };
 		070BAE3B550FEE0E693282BA07E07E65 /* DoubleConversion.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = DoubleConversion.xcframework; path = disprzSdk/Assets/Frameworks/DoubleConversion.xcframework; sourceTree = "<group>"; };
+		0820C8B39708F09BFC08CA60EB2180E6 /* Pods-disprzSdk_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-disprzSdk_Example.release.xcconfig"; sourceTree = "<group>"; };
 		0A515EAD25BDB30B82904EE5A2449A20 /* react_native_netinfo.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = react_native_netinfo.xcframework; path = disprzSdk/Assets/Frameworks/react_native_netinfo.xcframework; sourceTree = "<group>"; };
-		0D93113034DA203B9BAB6434FFE3B674 /* Pods-disprzSdk_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-disprzSdk_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		0F2D8CDE8DAC87F961557446AB42ADAC /* RCTTypeSafety.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = RCTTypeSafety.xcframework; path = disprzSdk/Assets/Frameworks/RCTTypeSafety.xcframework; sourceTree = "<group>"; };
 		1171C921A40674344A974CAFDC72737A /* SSZipArchive.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = SSZipArchive.xcframework; path = disprzSdk/Assets/Frameworks/SSZipArchive.xcframework; sourceTree = "<group>"; };
+		16B13A6447A92CDB9ED386B13DE2F2EA /* Pods-disprzSdk_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-disprzSdk_Example.modulemap"; sourceTree = "<group>"; };
 		1839E579CDD38C2E2293FD493567F70F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		1BA8F56BF779D9C80AF605F901D38E38 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		1D06FCA4E1D93D80C21B3E62FF8F5D5E /* disprzSdk.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = disprzSdk.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		1EB34D2D80E8FD2B636D03699A233B5D /* jsi.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = jsi.xcframework; path = disprzSdk/Assets/Frameworks/jsi.xcframework; sourceTree = "<group>"; };
-		208635B9091A23C0CB77E7807F928C41 /* Pods-disprzSdk_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-disprzSdk_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		207DEB29D0B4C8FF819764D7795A1A39 /* Pods-disprzSdk_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-disprzSdk_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		226D57676D652FBCFFC6F4FEB490CE73 /* RCTText.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = RCTText.xcframework; path = disprzSdk/Assets/Frameworks/RCTText.xcframework; sourceTree = "<group>"; };
 		236C44A887697DEF562D4D802D93FAB5 /* Pods_DisprzSdk.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = Pods_DisprzSdk.xcframework; path = disprzSdk/Assets/Frameworks/Pods_DisprzSdk.xcframework; sourceTree = "<group>"; };
 		2AC29E87BD8119A44DC1C6CAC404EC26 /* RNSnackbar.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = RNSnackbar.xcframework; path = disprzSdk/Assets/Frameworks/RNSnackbar.xcframework; sourceTree = "<group>"; };
 		2AE73A859EB26A03FEC5D214EA6DA78C /* react_native_webview.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = react_native_webview.xcframework; path = disprzSdk/Assets/Frameworks/react_native_webview.xcframework; sourceTree = "<group>"; };
 		2DD21EAF7F2D92C11170972D66F47998 /* DisprzSdkViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DisprzSdkViewController.swift; path = disprzSdk/Classes/DisprzSdkViewController.swift; sourceTree = "<group>"; };
 		32E0ACF613DC0A198839488131E5C1F8 /* ReactNativeART.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = ReactNativeART.xcframework; path = disprzSdk/Assets/Frameworks/ReactNativeART.xcframework; sourceTree = "<group>"; };
+		334FAA812E3C98F80DC35A661B409F20 /* Pods-disprzSdk_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-disprzSdk_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		3485FE00CCE624F57F0A2FD91DA0DD26 /* BVLinearGradient.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = BVLinearGradient.xcframework; path = disprzSdk/Assets/Frameworks/BVLinearGradient.xcframework; sourceTree = "<group>"; };
-		351FDDF996F39A9A100E9F6C42DE677D /* Pods-disprzSdk_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-disprzSdk_Tests-dummy.m"; sourceTree = "<group>"; };
 		35A039830972A619DEA8AD5494F7E204 /* disprzSdk */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = disprzSdk; path = disprzSdk.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		36B9CAABEB29C13AE3DAFF20AC3E5916 /* Pods-disprzSdk_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-disprzSdk_Example-dummy.m"; sourceTree = "<group>"; };
 		37400EFE81B6ADE434797A5A4D604616 /* react_native_device_brightness.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = react_native_device_brightness.xcframework; path = disprzSdk/Assets/Frameworks/react_native_device_brightness.xcframework; sourceTree = "<group>"; };
 		3B19565017EF568411860E7B3E3A84E4 /* react_native_slider.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = react_native_slider.xcframework; path = disprzSdk/Assets/Frameworks/react_native_slider.xcframework; sourceTree = "<group>"; };
+		3F3D2793DA386F5BB2A2287928EE8974 /* Pods-disprzSdk_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-disprzSdk_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		3F6ABA48478F4C2414DF294D0D6668F7 /* react_native_image_picker.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = react_native_image_picker.xcframework; path = disprzSdk/Assets/Frameworks/react_native_image_picker.xcframework; sourceTree = "<group>"; };
-		3FE75FA44CD9024D62E4379FD51E5B17 /* Pods-disprzSdk_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-disprzSdk_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		41D0798E3AEA58F5DBB5857C10ABE060 /* disprzSdk.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = disprzSdk.release.xcconfig; sourceTree = "<group>"; };
 		4632DFA9730F46358EB8D064AE66E6EB /* RNCAsyncStorage.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = RNCAsyncStorage.xcframework; path = disprzSdk/Assets/Frameworks/RNCAsyncStorage.xcframework; sourceTree = "<group>"; };
+		49D05440F57E248C69AF222DDE83A5B1 /* Pods-disprzSdk_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-disprzSdk_Example-umbrella.h"; sourceTree = "<group>"; };
 		4C5EDEF12DDC4B00A930127FFAC77BFB /* RNReanimated.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = RNReanimated.xcframework; path = disprzSdk/Assets/Frameworks/RNReanimated.xcframework; sourceTree = "<group>"; };
-		514C4E94A4DA4001443FB10C9D7ACABA /* Pods-disprzSdk_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-disprzSdk_Example.modulemap"; sourceTree = "<group>"; };
+		4EBE2A37BF8386B728E84B92982B0719 /* Pods-disprzSdk_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-disprzSdk_Tests-umbrella.h"; sourceTree = "<group>"; };
+		4EC25C166C5671C74A304722642E796B /* Pods-disprzSdk_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-disprzSdk_Example-Info.plist"; sourceTree = "<group>"; };
+		504F488AF8A5E3265AEC245ED98FA71C /* Pods-disprzSdk_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-disprzSdk_Tests-Info.plist"; sourceTree = "<group>"; };
 		531DB952FE8FDCF7F58F5841BCF559F5 /* CoreModules.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = CoreModules.xcframework; path = disprzSdk/Assets/Frameworks/CoreModules.xcframework; sourceTree = "<group>"; };
 		567BFA00329684E191926F80D9C18D94 /* disprzSdk-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "disprzSdk-umbrella.h"; sourceTree = "<group>"; };
-		5E024C44E68D5F3A8D460BFB66EE716D /* Pods-disprzSdk_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-disprzSdk_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		5E04C1657DEC47981B624B45E56216BC /* react_native_secure_window.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = react_native_secure_window.xcframework; path = disprzSdk/Assets/Frameworks/react_native_secure_window.xcframework; sourceTree = "<group>"; };
 		5FA1144205185AC33762AD7BDD17F06E /* GoogleMapsUtils.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = GoogleMapsUtils.xcframework; path = disprzSdk/Assets/Frameworks/GoogleMapsUtils.xcframework; sourceTree = "<group>"; };
 		5FAB917132431DCC7EB9B5B4FDFE4C8F /* react_native_safe_area_context.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = react_native_safe_area_context.xcframework; path = disprzSdk/Assets/Frameworks/react_native_safe_area_context.xcframework; sourceTree = "<group>"; };
@@ -95,28 +117,32 @@
 		6CDDDC1DCE12AC9E7EDE5D457CBACE54 /* disprzSdk.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = disprzSdk.modulemap; sourceTree = "<group>"; };
 		6F134FF6DCC8BFCC15F991DBFE86C650 /* RNGestureHandler.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = RNGestureHandler.xcframework; path = disprzSdk/Assets/Frameworks/RNGestureHandler.xcframework; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		7329E2FC674F71ACECED01D2D58E4E8F /* Pods-disprzSdk_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-disprzSdk_Example.release.xcconfig"; sourceTree = "<group>"; };
 		735F52962D63CA943748DD6152335EE5 /* ReactCommon.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = ReactCommon.xcframework; path = disprzSdk/Assets/Frameworks/ReactCommon.xcframework; sourceTree = "<group>"; };
 		75065CB697E8666990DB4D641CD59870 /* Pods-disprzSdk_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-disprzSdk_Example"; path = Pods_disprzSdk_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		755129748E505A620706C29A69A41F68 /* Pods-disprzSdk_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-disprzSdk_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		77AF9F562391DFBF607145E0A87D3CF5 /* RNCMaskedView.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = RNCMaskedView.xcframework; path = disprzSdk/Assets/Frameworks/RNCMaskedView.xcframework; sourceTree = "<group>"; };
 		78ABC8F28C4E5E2FF86F365AEA6D9BE3 /* react_native_maps.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = react_native_maps.xcframework; path = disprzSdk/Assets/Frameworks/react_native_maps.xcframework; sourceTree = "<group>"; };
 		79BBC5AF89991E9C41E355ABEBB5CE56 /* yoga.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = yoga.xcframework; path = disprzSdk/Assets/Frameworks/yoga.xcframework; sourceTree = "<group>"; };
-		79C2C489F60CE5F5F3FD92D34AE9AAEC /* Pods-disprzSdk_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-disprzSdk_Example-Info.plist"; sourceTree = "<group>"; };
+		7CDEFDE05BA4215D392CF4311ED42F36 /* Pods-disprzSdk_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-disprzSdk_Example-resources.sh"; sourceTree = "<group>"; };
+		8068F0FBFFFF91BCD5709D26ECB13C07 /* Pods-disprzSdk_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-disprzSdk_Example-frameworks.sh"; sourceTree = "<group>"; };
 		81233D3CBBA6904524D0310CDE87DA27 /* disprzSdk-disprzSdk */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "disprzSdk-disprzSdk"; path = disprzSdk.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		83171C3286184BCA576C4B90B547AD03 /* disprzSdk-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "disprzSdk-xcframeworks.sh"; sourceTree = "<group>"; };
 		834545323FC2E4A49262DA9C1C2F4E82 /* RCTVibration.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = RCTVibration.xcframework; path = disprzSdk/Assets/Frameworks/RCTVibration.xcframework; sourceTree = "<group>"; };
 		88E25A3D42E12357ACE51EE7927074C7 /* react_native_music_control.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = react_native_music_control.xcframework; path = disprzSdk/Assets/Frameworks/react_native_music_control.xcframework; sourceTree = "<group>"; };
 		8C7F02BBC6A7C48FCDE8B1AE956DC4AA /* jsinspector.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = jsinspector.xcframework; path = disprzSdk/Assets/Frameworks/jsinspector.xcframework; sourceTree = "<group>"; };
 		8FC2E5C82FD34C8E41EEBD6869F5B7B9 /* RNFastImage.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = RNFastImage.xcframework; path = disprzSdk/Assets/Frameworks/RNFastImage.xcframework; sourceTree = "<group>"; };
+		9048791C1985BB7F7FD2E1B753C651C2 /* Pods-disprzSdk_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-disprzSdk_Tests.modulemap"; sourceTree = "<group>"; };
 		9080E3FC201D14506CE356856CFCBB15 /* RNSVG.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = RNSVG.xcframework; path = disprzSdk/Assets/Frameworks/RNSVG.xcframework; sourceTree = "<group>"; };
-		9380E259139D696FB7CD35CBE1A1BCE1 /* Pods-disprzSdk_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-disprzSdk_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		97263B3409738DEFA356FFF307DFCAC0 /* react_native_keep_awake.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = react_native_keep_awake.xcframework; path = disprzSdk/Assets/Frameworks/react_native_keep_awake.xcframework; sourceTree = "<group>"; };
 		9BF209C77F3FE0708B6F8F132CA16D1D /* disprzSdk-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "disprzSdk-Info.plist"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9E7333010E174AF9B526BC765681EAB7 /* toolbar_android.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = toolbar_android.xcframework; path = disprzSdk/Assets/Frameworks/toolbar_android.xcframework; sourceTree = "<group>"; };
 		9E94832C8828F957FE3109DD8EB932DB /* react_native_splash_screen.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = react_native_splash_screen.xcframework; path = disprzSdk/Assets/Frameworks/react_native_splash_screen.xcframework; sourceTree = "<group>"; };
 		A03AAC80A56141F01D2C906309A55760 /* disprzSdk.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = disprzSdk.debug.xcconfig; sourceTree = "<group>"; };
+		A562E7C79C7D435C1EEB2B46862521A2 /* Pods-disprzSdk_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-disprzSdk_Tests-dummy.m"; sourceTree = "<group>"; };
 		A657D35F54965FF9FC2A5B5D72880BAE /* RNInAppBrowser.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = RNInAppBrowser.xcframework; path = disprzSdk/Assets/Frameworks/RNInAppBrowser.xcframework; sourceTree = "<group>"; };
+		AABE3D21F0BE384435A5D7C08A8FD5BB /* GoogleMaps.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GoogleMaps.debug.xcconfig; sourceTree = "<group>"; };
+		AD46F10906368F279B16F5FEC5F2C81E /* Pods-disprzSdk_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-disprzSdk_Example-dummy.m"; sourceTree = "<group>"; };
 		AF9576EC95033D48EBDF1BADD6C424B6 /* RNAudio.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = RNAudio.xcframework; path = disprzSdk/Assets/Frameworks/RNAudio.xcframework; sourceTree = "<group>"; };
 		B0AADAD121B61837F1759B5831D6F51E /* React.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = React.xcframework; path = disprzSdk/Assets/Frameworks/React.xcframework; sourceTree = "<group>"; };
 		B30E23D63CBD84E1590C136A05F68E1D /* RNI18n.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = RNI18n.xcframework; path = disprzSdk/Assets/Frameworks/RNI18n.xcframework; sourceTree = "<group>"; };
@@ -124,63 +150,63 @@
 		B894921BF4E79EEFF43257110C96BA25 /* ResourceBundle-disprzSdk-disprzSdk-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-disprzSdk-disprzSdk-Info.plist"; sourceTree = "<group>"; };
 		BFD640AF87B1E7E4CD50925E155C683C /* Base64.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = Base64.xcframework; path = disprzSdk/Assets/Frameworks/Base64.xcframework; sourceTree = "<group>"; };
 		C1CDC182C3ABC8F2B341E5BF8900E3A3 /* SDWebImageWebPCoder.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = SDWebImageWebPCoder.xcframework; path = disprzSdk/Assets/Frameworks/SDWebImageWebPCoder.xcframework; sourceTree = "<group>"; };
+		C3D0978B919EA2ECF2A2F8466075BB51 /* GoogleMaps.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GoogleMaps.release.xcconfig; sourceTree = "<group>"; };
 		C401523AF8F259722CB8827F9FFE3BC3 /* react_native_voice.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = react_native_voice.xcframework; path = disprzSdk/Assets/Frameworks/react_native_voice.xcframework; sourceTree = "<group>"; };
 		C6B6CF680A042FB0B012D2E5DE217ADD /* react_native_document_picker.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = react_native_document_picker.xcframework; path = disprzSdk/Assets/Frameworks/react_native_document_picker.xcframework; sourceTree = "<group>"; };
 		C6F72F7AAF041E096961D2E483780EF6 /* RNScreens.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = RNScreens.xcframework; path = disprzSdk/Assets/Frameworks/RNScreens.xcframework; sourceTree = "<group>"; };
 		C9458A13B66F995AAA7DFEADF9A13836 /* DisprzSdk.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DisprzSdk.h; path = disprzSdk/Classes/DisprzSdk.h; sourceTree = "<group>"; };
 		CB7FBB8A46FE2AFC271664C48B241970 /* RCTImage.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = RCTImage.xcframework; path = disprzSdk/Assets/Frameworks/RCTImage.xcframework; sourceTree = "<group>"; };
 		CC24407571C8EE2D8753E263E12B7E1B /* react_native_orientation.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = react_native_orientation.xcframework; path = disprzSdk/Assets/Frameworks/react_native_orientation.xcframework; sourceTree = "<group>"; };
-		CCA550CBB38C65FD98DDDB48D188DBC3 /* Pods-disprzSdk_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-disprzSdk_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		CCAF84BDED2FB6E96E950E18E0742136 /* GoogleMapsBase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMapsBase.framework; path = Base/Frameworks/GoogleMapsBase.framework; sourceTree = "<group>"; };
 		CE95EAA2F2AA31FEF36CF5D49CAA7F70 /* libwebp.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = libwebp.xcframework; path = disprzSdk/Assets/Frameworks/libwebp.xcframework; sourceTree = "<group>"; };
 		CE9F3391DC24CD10BC42136E82FFEEC8 /* react_native_photo_view.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = react_native_photo_view.xcframework; path = disprzSdk/Assets/Frameworks/react_native_photo_view.xcframework; sourceTree = "<group>"; };
 		CFE2BBE34C750F8508EFAEDEB933D54A /* rnsdk.jsbundle */ = {isa = PBXFileReference; includeInIndex = 1; name = rnsdk.jsbundle; path = disprzSdk/Assets/Resources/rnsdk.jsbundle; sourceTree = "<group>"; };
 		D3BFEFDBE558AD4161435BC41F52FEA2 /* Pods-disprzSdk_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-disprzSdk_Tests"; path = Pods_disprzSdk_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3FA6D4781DFFFB9EEA10F2CDD4EB25D /* FBReactNativeSpec.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = FBReactNativeSpec.xcframework; path = disprzSdk/Assets/Frameworks/FBReactNativeSpec.xcframework; sourceTree = "<group>"; };
 		D47EDB4ADDFB0B4E1BA3CD8750BAD25A /* rn_fetch_blob.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = rn_fetch_blob.xcframework; path = disprzSdk/Assets/Frameworks/rn_fetch_blob.xcframework; sourceTree = "<group>"; };
-		D698E41B65B0BE5A0241ED0AD94B9C4B /* Pods-disprzSdk_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-disprzSdk_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		D8BD81EAB21ADF09E3ECF7135364DC93 /* disprzSdk-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "disprzSdk-prefix.pch"; sourceTree = "<group>"; };
 		D93CBC0EDC4F95D512CCA39069E84B3E /* RNDeviceInfo.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = RNDeviceInfo.xcframework; path = disprzSdk/Assets/Frameworks/RNDeviceInfo.xcframework; sourceTree = "<group>"; };
+		D94DD59E9F5EB07A848F91EB4BEF8CB0 /* Pods-disprzSdk_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-disprzSdk_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		D97C36C6189D45A736A673345A81B19F /* RCTSettings.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = RCTSettings.xcframework; path = disprzSdk/Assets/Frameworks/RCTSettings.xcframework; sourceTree = "<group>"; };
 		D9919C2BD39547F83A0CA9C0B97B554F /* DisprzSdk.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = DisprzSdk.xcframework; path = disprzSdk/Assets/Frameworks/DisprzSdk.xcframework; sourceTree = "<group>"; };
 		DA2DBF34A2F7FCE0EE6E52869D3FAD7B /* RNSound.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = RNSound.xcframework; path = disprzSdk/Assets/Frameworks/RNSound.xcframework; sourceTree = "<group>"; };
-		DD5CEE7C39BE4E076754B854764B5DB3 /* Pods-disprzSdk_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-disprzSdk_Example-umbrella.h"; sourceTree = "<group>"; };
 		DE368051785580E8EDBF867F21B23A07 /* react_native_geolocation.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = react_native_geolocation.xcframework; path = disprzSdk/Assets/Frameworks/react_native_geolocation.xcframework; sourceTree = "<group>"; };
 		E1D6446668ACF008DCC15CFD4457EBA0 /* folly.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = folly.xcframework; path = disprzSdk/Assets/Frameworks/folly.xcframework; sourceTree = "<group>"; };
-		E4A8B6A5100F3822E1D54708DE45E46F /* Pods-disprzSdk_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-disprzSdk_Example-frameworks.sh"; sourceTree = "<group>"; };
-		E6151C85E9441535384AAFC415C1C53B /* Pods-disprzSdk_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-disprzSdk_Tests-umbrella.h"; sourceTree = "<group>"; };
+		E2309F84CDF17FF87E66D6CDB6B517AB /* GoogleMaps.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = GoogleMaps.bundle; path = Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle; sourceTree = "<group>"; };
+		E2F4E7C722407F81715B67A5F9EC4FAD /* GoogleMapsCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMapsCore.framework; path = Maps/Frameworks/GoogleMapsCore.framework; sourceTree = "<group>"; };
 		E72C01860E61064DD70EA0ACC25BCACE /* RCTBlob.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = RCTBlob.xcframework; path = disprzSdk/Assets/Frameworks/RCTBlob.xcframework; sourceTree = "<group>"; };
 		E74FEF75F4E221833D3FB5CCC30E270F /* YoutubePlayer_in_WKWebView.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = YoutubePlayer_in_WKWebView.xcframework; path = disprzSdk/Assets/Frameworks/YoutubePlayer_in_WKWebView.xcframework; sourceTree = "<group>"; };
 		E84C2C8FCCA6ABFBE28EA9391418E456 /* cxxreact.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = cxxreact.xcframework; path = disprzSdk/Assets/Frameworks/cxxreact.xcframework; sourceTree = "<group>"; };
 		E85A122463DF2C4329D8E26908571CF6 /* react_native_config.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = react_native_config.xcframework; path = disprzSdk/Assets/Frameworks/react_native_config.xcframework; sourceTree = "<group>"; };
 		E87D54D3F482AAD397A75E1A07C3359B /* RCTAnimation.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = RCTAnimation.xcframework; path = disprzSdk/Assets/Frameworks/RCTAnimation.xcframework; sourceTree = "<group>"; };
 		EBE85E4044AF64B6EE9DDC948C24B8C7 /* glog.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = glog.xcframework; path = disprzSdk/Assets/Frameworks/glog.xcframework; sourceTree = "<group>"; };
-		EEF3ADCAC142E4BCC4943A2335B52BEF /* Pods-disprzSdk_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-disprzSdk_Tests-Info.plist"; sourceTree = "<group>"; };
 		EF8A8D187A951B8C2BC435D7D5C05FFF /* react_native_video.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = react_native_video.xcframework; path = disprzSdk/Assets/Frameworks/react_native_video.xcframework; sourceTree = "<group>"; };
+		F3185C8BC9884326C4ECC7C2CD45E563 /* Pods-disprzSdk_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-disprzSdk_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		F6925D26BB08B2699E6634D354D0EDF7 /* RCTNetwork.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = RCTNetwork.xcframework; path = disprzSdk/Assets/Frameworks/RCTNetwork.xcframework; sourceTree = "<group>"; };
-		FDCAD7DE6F6982994A28ED728989C040 /* Pods-disprzSdk_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-disprzSdk_Tests.modulemap"; sourceTree = "<group>"; };
+		FB96D375EB4FA369D5528734408754D3 /* Pods-disprzSdk_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-disprzSdk_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		253B781DAF63D9534FA089E150B174F5 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		6CC99A5C837A9C6797E06A6A1424A64D /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4D9FF4CA8912897F297F10B9D45EB3A8 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		6D43DC83D596F4DD07966A4163D9F7B3 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				347E175991201C173926ECB1627C11D4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		755CAE251ED3BB8ECC976E6F36683362 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFE1D23D4A9ABC1AE0DCE97E87C435BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFC69A1B78AF2D4BB0D426A9E13E1F09 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -214,6 +240,34 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		1AEA1CF3E36FF8113F6FFD7526BE5F98 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CCAF84BDED2FB6E96E950E18E0742136 /* GoogleMapsBase.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		23258B9441300E23C80256BEEFD1F964 /* GoogleMaps */ = {
+			isa = PBXGroup;
+			children = (
+				5FCC553E82707BA26B1F6EDC00161B0D /* Base */,
+				387015716759109261086A8C0CA736F5 /* Maps */,
+				9601491F11C5653D98D1EB5DF2155DFE /* Support Files */,
+			);
+			name = GoogleMaps;
+			path = GoogleMaps;
+			sourceTree = "<group>";
+		};
+		387015716759109261086A8C0CA736F5 /* Maps */ = {
+			isa = PBXGroup;
+			children = (
+				F9621E38CA93CD5E47C3F28B4F0AF3DD /* Frameworks */,
+				E48211C21EA696EBC32B31525F5FFA67 /* Resources */,
+			);
+			name = Maps;
+			sourceTree = "<group>";
+		};
 		484954B5D56BC55DF65DC30C73CF4613 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
@@ -230,6 +284,39 @@
 				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
 			);
 			name = iOS;
+			sourceTree = "<group>";
+		};
+		5FCC553E82707BA26B1F6EDC00161B0D /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				1AEA1CF3E36FF8113F6FFD7526BE5F98 /* Frameworks */,
+			);
+			name = Base;
+			sourceTree = "<group>";
+		};
+		7B48601535F725D73519575E406A4008 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E613FD6F37106FC0735AC323038DD202 /* Pods-disprzSdk_Example */,
+				8520A8C060B854D66AF08260336A78A9 /* Pods-disprzSdk_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		8520A8C060B854D66AF08260336A78A9 /* Pods-disprzSdk_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				9048791C1985BB7F7FD2E1B753C651C2 /* Pods-disprzSdk_Tests.modulemap */,
+				FB96D375EB4FA369D5528734408754D3 /* Pods-disprzSdk_Tests-acknowledgements.markdown */,
+				3F3D2793DA386F5BB2A2287928EE8974 /* Pods-disprzSdk_Tests-acknowledgements.plist */,
+				A562E7C79C7D435C1EEB2B46862521A2 /* Pods-disprzSdk_Tests-dummy.m */,
+				504F488AF8A5E3265AEC245ED98FA71C /* Pods-disprzSdk_Tests-Info.plist */,
+				4EBE2A37BF8386B728E84B92982B0719 /* Pods-disprzSdk_Tests-umbrella.h */,
+				334FAA812E3C98F80DC35A661B409F20 /* Pods-disprzSdk_Tests.debug.xcconfig */,
+				755129748E505A620706C29A69A41F68 /* Pods-disprzSdk_Tests.release.xcconfig */,
+			);
+			name = "Pods-disprzSdk_Tests";
+			path = "Target Support Files/Pods-disprzSdk_Tests";
 			sourceTree = "<group>";
 		};
 		87FE05C71823E21374E5A46286F787CE /* Support Files */ = {
@@ -249,30 +336,14 @@
 			path = "Example/Pods/Target Support Files/disprzSdk";
 			sourceTree = "<group>";
 		};
-		950A4AFBF1B21965E4BE88AEC03BDD92 /* Targets Support Files */ = {
+		9601491F11C5653D98D1EB5DF2155DFE /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				9BB5AC73DD1DC3A9D6C8C2C8F96B6B0D /* Pods-disprzSdk_Example */,
-				F401C5EB7E47B779C7DB8DB77E601B82 /* Pods-disprzSdk_Tests */,
+				AABE3D21F0BE384435A5D7C08A8FD5BB /* GoogleMaps.debug.xcconfig */,
+				C3D0978B919EA2ECF2A2F8466075BB51 /* GoogleMaps.release.xcconfig */,
 			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		9BB5AC73DD1DC3A9D6C8C2C8F96B6B0D /* Pods-disprzSdk_Example */ = {
-			isa = PBXGroup;
-			children = (
-				514C4E94A4DA4001443FB10C9D7ACABA /* Pods-disprzSdk_Example.modulemap */,
-				3FE75FA44CD9024D62E4379FD51E5B17 /* Pods-disprzSdk_Example-acknowledgements.markdown */,
-				208635B9091A23C0CB77E7807F928C41 /* Pods-disprzSdk_Example-acknowledgements.plist */,
-				36B9CAABEB29C13AE3DAFF20AC3E5916 /* Pods-disprzSdk_Example-dummy.m */,
-				E4A8B6A5100F3822E1D54708DE45E46F /* Pods-disprzSdk_Example-frameworks.sh */,
-				79C2C489F60CE5F5F3FD92D34AE9AAEC /* Pods-disprzSdk_Example-Info.plist */,
-				DD5CEE7C39BE4E076754B854764B5DB3 /* Pods-disprzSdk_Example-umbrella.h */,
-				9380E259139D696FB7CD35CBE1A1BCE1 /* Pods-disprzSdk_Example.debug.xcconfig */,
-				7329E2FC674F71ACECED01D2D58E4E8F /* Pods-disprzSdk_Example.release.xcconfig */,
-			);
-			name = "Pods-disprzSdk_Example";
-			path = "Target Support Files/Pods-disprzSdk_Example";
+			name = "Support Files";
+			path = "../Target Support Files/GoogleMaps";
 			sourceTree = "<group>";
 		};
 		9D2DEF94A3AA0E422F054CCBCDA53DBA /* disprzSdk */ = {
@@ -296,8 +367,9 @@
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				00E52353BFEA05DEE5F7FF5EC28D0095 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				DF3634087891871FA7B65CC4A8E6DB71 /* Pods */,
 				177B729B1162BA95527EA5C923FCBD6A /* Products */,
-				950A4AFBF1B21965E4BE88AEC03BDD92 /* Targets Support Files */,
+				7B48601535F725D73519575E406A4008 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
@@ -307,6 +379,40 @@
 				578452D2E740E91742655AC8F1636D1F /* iOS */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DF3634087891871FA7B65CC4A8E6DB71 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				23258B9441300E23C80256BEEFD1F964 /* GoogleMaps */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E48211C21EA696EBC32B31525F5FFA67 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E2309F84CDF17FF87E66D6CDB6B517AB /* GoogleMaps.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		E613FD6F37106FC0735AC323038DD202 /* Pods-disprzSdk_Example */ = {
+			isa = PBXGroup;
+			children = (
+				16B13A6447A92CDB9ED386B13DE2F2EA /* Pods-disprzSdk_Example.modulemap */,
+				D94DD59E9F5EB07A848F91EB4BEF8CB0 /* Pods-disprzSdk_Example-acknowledgements.markdown */,
+				207DEB29D0B4C8FF819764D7795A1A39 /* Pods-disprzSdk_Example-acknowledgements.plist */,
+				AD46F10906368F279B16F5FEC5F2C81E /* Pods-disprzSdk_Example-dummy.m */,
+				8068F0FBFFFF91BCD5709D26ECB13C07 /* Pods-disprzSdk_Example-frameworks.sh */,
+				4EC25C166C5671C74A304722642E796B /* Pods-disprzSdk_Example-Info.plist */,
+				7CDEFDE05BA4215D392CF4311ED42F36 /* Pods-disprzSdk_Example-resources.sh */,
+				49D05440F57E248C69AF222DDE83A5B1 /* Pods-disprzSdk_Example-umbrella.h */,
+				F3185C8BC9884326C4ECC7C2CD45E563 /* Pods-disprzSdk_Example.debug.xcconfig */,
+				0820C8B39708F09BFC08CA60EB2180E6 /* Pods-disprzSdk_Example.release.xcconfig */,
+			);
+			name = "Pods-disprzSdk_Example";
+			path = "Target Support Files/Pods-disprzSdk_Example";
 			sourceTree = "<group>";
 		};
 		E9111A69494CE334A85B074DCB69DF3E /* Frameworks */ = {
@@ -387,20 +493,13 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		F401C5EB7E47B779C7DB8DB77E601B82 /* Pods-disprzSdk_Tests */ = {
+		F9621E38CA93CD5E47C3F28B4F0AF3DD /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				FDCAD7DE6F6982994A28ED728989C040 /* Pods-disprzSdk_Tests.modulemap */,
-				CCA550CBB38C65FD98DDDB48D188DBC3 /* Pods-disprzSdk_Tests-acknowledgements.markdown */,
-				5E024C44E68D5F3A8D460BFB66EE716D /* Pods-disprzSdk_Tests-acknowledgements.plist */,
-				351FDDF996F39A9A100E9F6C42DE677D /* Pods-disprzSdk_Tests-dummy.m */,
-				EEF3ADCAC142E4BCC4943A2335B52BEF /* Pods-disprzSdk_Tests-Info.plist */,
-				E6151C85E9441535384AAFC415C1C53B /* Pods-disprzSdk_Tests-umbrella.h */,
-				0D93113034DA203B9BAB6434FFE3B674 /* Pods-disprzSdk_Tests.debug.xcconfig */,
-				D698E41B65B0BE5A0241ED0AD94B9C4B /* Pods-disprzSdk_Tests.release.xcconfig */,
+				01AF48CF5646ADAB5D7324A8169AFF03 /* GoogleMaps.framework */,
+				E2F4E7C722407F81715B67A5F9EC4FAD /* GoogleMapsCore.framework */,
 			);
-			name = "Pods-disprzSdk_Tests";
-			path = "Target Support Files/Pods-disprzSdk_Tests";
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -423,11 +522,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A3183A5084431D1DFA01715CC4D165E5 /* Headers */ = {
+		E9BCB7591116A17FF6CDCBA2C5F5C7A4 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9CFF93E41A4CCA383C428008C183C3DA /* Pods-disprzSdk_Example-umbrella.h in Headers */,
+				80D1DAF637DE38EE4FFFB21FBDC353EE /* Pods-disprzSdk_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -447,7 +546,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				7D804CD17F2BE0C1F5EDE5ABFEDFBA19 /* PBXTargetDependency */,
+				C29FC0832A8BB9BABDA660267ABE42EF /* PBXTargetDependency */,
 			);
 			name = disprzSdk;
 			productName = disprzSdk;
@@ -466,7 +565,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				730FE6345D0C089B8027C26980317F38 /* PBXTargetDependency */,
+				4851EC7484DED8F394E3073B0D6DA630 /* PBXTargetDependency */,
 			);
 			name = "Pods-disprzSdk_Tests";
 			productName = Pods_disprzSdk_Tests;
@@ -475,17 +574,18 @@
 		};
 		246F56328A772FE99615CE6E7861E9C5 /* Pods-disprzSdk_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 031B57F8F0E30E05A2947BE570368E6B /* Build configuration list for PBXNativeTarget "Pods-disprzSdk_Example" */;
+			buildConfigurationList = 4AC81DB617BCE095B86A9B21DAB6EA5B /* Build configuration list for PBXNativeTarget "Pods-disprzSdk_Example" */;
 			buildPhases = (
-				A3183A5084431D1DFA01715CC4D165E5 /* Headers */,
-				EECCE493CA03378B1A25E9368E6D29B3 /* Sources */,
-				6CC99A5C837A9C6797E06A6A1424A64D /* Frameworks */,
-				4FE4ABDE96937C677172A1ECD89A41A8 /* Resources */,
+				E9BCB7591116A17FF6CDCBA2C5F5C7A4 /* Headers */,
+				E1E604E3A869637AA3F9928E73588DD2 /* Sources */,
+				AFE1D23D4A9ABC1AE0DCE97E87C435BC /* Frameworks */,
+				7939AF950E5A89991ED29772800A9DF2 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				2EF01410572263779A6AC8BDD8CADD91 /* PBXTargetDependency */,
+				A51DF42DAAF97863CEEE8BB2B640A9BA /* PBXTargetDependency */,
+				CD314A1B9243B2D1CE029830465B3468 /* PBXTargetDependency */,
 			);
 			name = "Pods-disprzSdk_Example";
 			productName = Pods_disprzSdk_Example;
@@ -494,11 +594,11 @@
 		};
 		B8F1BD426E9B1A232231ABBEA5F536AA /* disprzSdk-disprzSdk */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 18510E9C77C57E9B57F499E12AA61BD1 /* Build configuration list for PBXNativeTarget "disprzSdk-disprzSdk" */;
+			buildConfigurationList = F6FD67A94DEC2C1425EB59D357BA746C /* Build configuration list for PBXNativeTarget "disprzSdk-disprzSdk" */;
 			buildPhases = (
-				0A81F5A3C3B9AA79D0693C220F080CF7 /* Sources */,
-				253B781DAF63D9534FA089E150B174F5 /* Frameworks */,
-				B09208F4D194CAA8EE6233A0BFE6E4B3 /* Resources */,
+				41254FC55976C9CF0629EE93EDD359C4 /* Sources */,
+				755CAE251ED3BB8ECC976E6F36683362 /* Frameworks */,
+				E32585F1F6A0DA471192D67F017BD272 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -533,6 +633,7 @@
 			targets = (
 				09F4795B28B8C447376DE0DCBD11AE36 /* disprzSdk */,
 				B8F1BD426E9B1A232231ABBEA5F536AA /* disprzSdk-disprzSdk */,
+				E5B4BBC6DD552AC8943C7E22772FC1D3 /* GoogleMaps */,
 				246F56328A772FE99615CE6E7861E9C5 /* Pods-disprzSdk_Example */,
 				1547555D5AF3D870C7800074BE1DD4FD /* Pods-disprzSdk_Tests */,
 			);
@@ -547,13 +648,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4FE4ABDE96937C677172A1ECD89A41A8 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		684A01E8DF2B57866A6638774504A01A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -562,12 +656,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B09208F4D194CAA8EE6233A0BFE6E4B3 /* Resources */ = {
+		7939AF950E5A89991ED29772800A9DF2 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1010CA97BDAFE4AF1B05F63FCA8E46E1 /* assets in Resources */,
-				83ADC6D5F5A3E79B5220E34A5B493DEE /* rnsdk.jsbundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E32585F1F6A0DA471192D67F017BD272 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A43760C69144CCECEB5A7326EA75E507 /* assets in Resources */,
+				926959B3A9399A57133F1C5D92EC355E /* rnsdk.jsbundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -735,7 +836,7 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		0A81F5A3C3B9AA79D0693C220F080CF7 /* Sources */ = {
+		41254FC55976C9CF0629EE93EDD359C4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -759,88 +860,44 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EECCE493CA03378B1A25E9368E6D29B3 /* Sources */ = {
+		E1E604E3A869637AA3F9928E73588DD2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0BD9A576E5D86D5352A03671345B8DD2 /* Pods-disprzSdk_Example-dummy.m in Sources */,
+				0C01DF55BF8E91269651FD6586DD80E7 /* Pods-disprzSdk_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		2EF01410572263779A6AC8BDD8CADD91 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = disprzSdk;
-			target = 09F4795B28B8C447376DE0DCBD11AE36 /* disprzSdk */;
-			targetProxy = 2772CDBE213D077DE49CADD7A9B95C71 /* PBXContainerItemProxy */;
-		};
-		730FE6345D0C089B8027C26980317F38 /* PBXTargetDependency */ = {
+		4851EC7484DED8F394E3073B0D6DA630 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-disprzSdk_Example";
 			target = 246F56328A772FE99615CE6E7861E9C5 /* Pods-disprzSdk_Example */;
-			targetProxy = E5321DA51EEDCFA78885BA8F7092E467 /* PBXContainerItemProxy */;
+			targetProxy = 6C6DF65D7A874E16E37C25E8163C9333 /* PBXContainerItemProxy */;
 		};
-		7D804CD17F2BE0C1F5EDE5ABFEDFBA19 /* PBXTargetDependency */ = {
+		A51DF42DAAF97863CEEE8BB2B640A9BA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GoogleMaps;
+			target = E5B4BBC6DD552AC8943C7E22772FC1D3 /* GoogleMaps */;
+			targetProxy = 4392F65625A8D64D8AEB5B90ADC448AE /* PBXContainerItemProxy */;
+		};
+		C29FC0832A8BB9BABDA660267ABE42EF /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "disprzSdk-disprzSdk";
 			target = B8F1BD426E9B1A232231ABBEA5F536AA /* disprzSdk-disprzSdk */;
-			targetProxy = F8C071932CC92D792CC38D21EA7C0084 /* PBXContainerItemProxy */;
+			targetProxy = 9FD957544F6086575DE361DBC1A0CDC8 /* PBXContainerItemProxy */;
+		};
+		CD314A1B9243B2D1CE029830465B3468 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = disprzSdk;
+			target = 09F4795B28B8C447376DE0DCBD11AE36 /* disprzSdk */;
+			targetProxy = 1ADFB811C11167BA83FEA90B4C1CB462 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		0B7B82C6EB3D37AD97E5F87091BEA3E8 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 41D0798E3AEA58F5DBB5857C10ABE060 /* disprzSdk.release.xcconfig */;
-			buildSettings = {
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/disprzSdk";
-				IBSC_MODULE = disprzSdk;
-				INFOPLIST_FILE = "Target Support Files/disprzSdk/ResourceBundle-disprzSdk-disprzSdk-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				PRODUCT_NAME = disprzSdk;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Release;
-		};
-		31D8CFB0BB2C77EEE480762FC640CCA9 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9380E259139D696FB7CD35CBE1A1BCE1 /* Pods-disprzSdk_Example.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-disprzSdk_Example/Pods-disprzSdk_Example-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-disprzSdk_Example/Pods-disprzSdk_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		3CCA84D0C963FEB546D2C7B4182BEFF0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A03AAC80A56141F01D2C906309A55760 /* disprzSdk.debug.xcconfig */;
@@ -875,7 +932,7 @@
 		};
 		42249BE76DBBDC57F57352F09D01DF4B /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0D93113034DA203B9BAB6434FFE3B674 /* Pods-disprzSdk_Tests.debug.xcconfig */;
+			baseConfigurationReference = 334FAA812E3C98F80DC35A661B409F20 /* Pods-disprzSdk_Tests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
@@ -907,7 +964,42 @@
 			};
 			name = Debug;
 		};
-		713BEC2169A9A51D5E1BE518F8B5887D /* Debug */ = {
+		470AF8274E17CA1CCC2E33C1E1C51C10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0820C8B39708F09BFC08CA60EB2180E6 /* Pods-disprzSdk_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-disprzSdk_Example/Pods-disprzSdk_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-disprzSdk_Example/Pods-disprzSdk_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		738D36F3C6A5B8ECA1B09F34C019EF0F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A03AAC80A56141F01D2C906309A55760 /* disprzSdk.debug.xcconfig */;
 			buildSettings = {
@@ -925,7 +1017,7 @@
 		};
 		79FFEA50DFEB9E7752A95152B56F952E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D698E41B65B0BE5A0241ED0AD94B9C4B /* Pods-disprzSdk_Tests.release.xcconfig */;
+			baseConfigurationReference = 755129748E505A620706C29A69A41F68 /* Pods-disprzSdk_Tests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
@@ -1053,41 +1145,6 @@
 			};
 			name = Release;
 		};
-		A9C9A127FB1EC9359B7E2A995A294BB7 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7329E2FC674F71ACECED01D2D58E4E8F /* Pods-disprzSdk_Example.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-disprzSdk_Example/Pods-disprzSdk_Example-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-disprzSdk_Example/Pods-disprzSdk_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		B4EFE046ACF8F37157F6E322C7FCFC28 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1154,18 +1211,90 @@
 			};
 			name = Debug;
 		};
+		B7B569723E4F82C1A3A8FCFC6E66E17A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C3D0978B919EA2ECF2A2F8466075BB51 /* GoogleMaps.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B97902FEC2AF9C27640530D7545ED3BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 41D0798E3AEA58F5DBB5857C10ABE060 /* disprzSdk.release.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/disprzSdk";
+				IBSC_MODULE = disprzSdk;
+				INFOPLIST_FILE = "Target Support Files/disprzSdk/ResourceBundle-disprzSdk-disprzSdk-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_NAME = disprzSdk;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		C7393F33BD251749C754728CFEC8E9E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F3185C8BC9884326C4ECC7C2CD45E563 /* Pods-disprzSdk_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-disprzSdk_Example/Pods-disprzSdk_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-disprzSdk_Example/Pods-disprzSdk_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E555D49ACD568F2F279BB885D0DB9DA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AABE3D21F0BE384435A5D7C08A8FD5BB /* GoogleMaps.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		031B57F8F0E30E05A2947BE570368E6B /* Build configuration list for PBXNativeTarget "Pods-disprzSdk_Example" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				31D8CFB0BB2C77EEE480762FC640CCA9 /* Debug */,
-				A9C9A127FB1EC9359B7E2A995A294BB7 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		10F00E846BFBD8FA1D3656036D721490 /* Build configuration list for PBXNativeTarget "Pods-disprzSdk_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -1175,11 +1304,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		18510E9C77C57E9B57F499E12AA61BD1 /* Build configuration list for PBXNativeTarget "disprzSdk-disprzSdk" */ = {
+		46921981F609C5BA3CB72EC4EA41299D /* Build configuration list for PBXAggregateTarget "GoogleMaps" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				713BEC2169A9A51D5E1BE518F8B5887D /* Debug */,
-				0B7B82C6EB3D37AD97E5F87091BEA3E8 /* Release */,
+				E555D49ACD568F2F279BB885D0DB9DA9 /* Debug */,
+				B7B569723E4F82C1A3A8FCFC6E66E17A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1193,11 +1322,29 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		4AC81DB617BCE095B86A9B21DAB6EA5B /* Build configuration list for PBXNativeTarget "Pods-disprzSdk_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7393F33BD251749C754728CFEC8E9E8 /* Debug */,
+				470AF8274E17CA1CCC2E33C1E1C51C10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		9956325F0533DA3D0E5C669517D5CEB7 /* Build configuration list for PBXNativeTarget "disprzSdk" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3CCA84D0C963FEB546D2C7B4182BEFF0 /* Debug */,
 				8B344079F4EB4F682F6538F24A7932D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F6FD67A94DEC2C1425EB59D357BA746C /* Build configuration list for PBXNativeTarget "disprzSdk-disprzSdk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				738D36F3C6A5B8ECA1B09F34C019EF0F /* Debug */,
+				B97902FEC2AF9C27640530D7545ED3BF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

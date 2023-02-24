@@ -12,7 +12,7 @@
     "perumalram22": "perumal.r@disprz.com"
   },
   "source": {
-    "git": "https://github.com/disprz/disprzSdk.git",
+    "git": "https://github.com/perumalram22/disprz_ios_sdk.git",
     "tag": "0.1.0"
   },
   "platforms": {
