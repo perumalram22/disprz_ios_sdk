@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'disprzSdk'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'Disprz Sdk for ios project'
 
 # This description is used to generate tags and improve search results.
@@ -27,7 +27,6 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '11.0'
 
-  s.source_files = 'disprzSdk/Classes/**/*'
   s.vendored_frameworks = 'disprzSdk/Assets/Frameworks/*'
   s.resource_bundles = {
     'disprzSdk' => ['disprzSdk/Assets/Resources/*'],

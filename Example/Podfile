@@ -4,6 +4,7 @@ platform :ios, '11.0'
 
 target 'disprzSdk_Example' do
   pod 'disprzSdk', :path => '../'
+  pod 'lottie-ios', :git => 'https://github.com/airbnb/lottie-ios.git', :tag => '3.1.8'
   pod 'GoogleMaps', '5.1.0'
 
   target 'disprzSdk_Tests' do

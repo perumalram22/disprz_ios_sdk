@@ -10,8 +10,7 @@
 #endif
 #endif
 
-#import "DisprzSdk.h"
 
-FOUNDATION_EXPORT double disprzSdkVersionNumber;
-FOUNDATION_EXPORT const unsigned char disprzSdkVersionString[];
+FOUNDATION_EXPORT double LottieVersionNumber;
+FOUNDATION_EXPORT const unsigned char LottieVersionString[];
 

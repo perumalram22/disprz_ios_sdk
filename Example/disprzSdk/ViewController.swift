@@ -7,8 +7,9 @@
 //
 
 import UIKit
+import DisprzSdk
 
-class ViewController: UIViewController {
+class ViewController: DisprzSdkViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

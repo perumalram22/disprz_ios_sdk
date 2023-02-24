@@ -5,10 +5,12 @@ PODS:
   - GoogleMaps/Base (5.1.0)
   - GoogleMaps/Maps (5.1.0):
     - GoogleMaps/Base
+  - lottie-ios (3.1.8)
 
 DEPENDENCIES:
   - disprzSdk (from `../`)
   - GoogleMaps (= 5.1.0)
+  - lottie-ios (from `https://github.com/airbnb/lottie-ios.git`, tag `3.1.8`)
 
 SPEC REPOS:
   trunk:
@@ -17,11 +19,20 @@ SPEC REPOS:
 EXTERNAL SOURCES:
   disprzSdk:
     :path: "../"
+  lottie-ios:
+    :git: https://github.com/airbnb/lottie-ios.git
+    :tag: 3.1.8
+
+CHECKOUT OPTIONS:
+  lottie-ios:
+    :git: https://github.com/airbnb/lottie-ios.git
+    :tag: 3.1.8
 
 SPEC CHECKSUMS:
-  disprzSdk: 6e16b7930361a90127dafe807bcd82d9329c2a21
+  disprzSdk: 14d779a4f359a7579e46b7ecc40e0d3387dabb8e
   GoogleMaps: 086ae1dab659eaa7339bdb30fc88e2f44e7c597c
+  lottie-ios: 48fac6be217c76937e36e340e2d09cf7b10b7f5f
 
-PODFILE CHECKSUM: f4738186c23fd68ba5fe7bd02bc85f1053e5a1fd
+PODFILE CHECKSUM: 49b8c18dffa95e6839709ba40c3ae09e81b8780f
 
 COCOAPODS: 1.11.3

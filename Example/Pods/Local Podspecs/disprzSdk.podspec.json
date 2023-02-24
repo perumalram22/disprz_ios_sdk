@@ -18,7 +18,6 @@
   "platforms": {
     "ios": "11.0"
   },
-  "source_files": "disprzSdk/Classes/**/*",
   "vendored_frameworks": "disprzSdk/Assets/Frameworks/*",
   "resource_bundles": {
     "disprzSdk": [

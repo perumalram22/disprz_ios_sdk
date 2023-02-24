@@ -1,5 +1,4 @@
 import XCTest
-import disprzSdk
 
 class Tests: XCTestCase {
     
