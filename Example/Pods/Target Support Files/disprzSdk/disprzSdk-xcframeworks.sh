@@ -77,12 +77,6 @@ variant_for_slice()
   "glog.xcframework/ios-arm64")
     echo ""
     ;;
-  "GoogleMapsUtils.xcframework/ios-x86_64-simulator")
-    echo "simulator"
-    ;;
-  "GoogleMapsUtils.xcframework/ios-arm64")
-    echo ""
-    ;;
   "jsi.xcframework/ios-arm64")
     echo ""
     ;;
@@ -507,12 +501,6 @@ archs_for_slice()
     echo "arm64 x86_64"
     ;;
   "glog.xcframework/ios-arm64")
-    echo "arm64"
-    ;;
-  "GoogleMapsUtils.xcframework/ios-x86_64-simulator")
-    echo "x86_64"
-    ;;
-  "GoogleMapsUtils.xcframework/ios-arm64")
     echo "arm64"
     ;;
   "jsi.xcframework/ios-arm64")
@@ -967,7 +955,6 @@ install_xcframework "${PODS_ROOT}/../../disprzSdk/Assets/Frameworks/DoubleConver
 install_xcframework "${PODS_ROOT}/../../disprzSdk/Assets/Frameworks/FBReactNativeSpec.xcframework" "disprzSdk" "framework" "ios-arm64" "ios-arm64_x86_64-simulator"
 install_xcframework "${PODS_ROOT}/../../disprzSdk/Assets/Frameworks/folly.xcframework" "disprzSdk" "framework" "ios-arm64_x86_64-simulator" "ios-arm64"
 install_xcframework "${PODS_ROOT}/../../disprzSdk/Assets/Frameworks/glog.xcframework" "disprzSdk" "framework" "ios-arm64_x86_64-simulator" "ios-arm64"
-install_xcframework "${PODS_ROOT}/../../disprzSdk/Assets/Frameworks/GoogleMapsUtils.xcframework" "disprzSdk" "framework" "ios-x86_64-simulator" "ios-arm64"
 install_xcframework "${PODS_ROOT}/../../disprzSdk/Assets/Frameworks/jsi.xcframework" "disprzSdk" "framework" "ios-arm64" "ios-arm64_x86_64-simulator"
 install_xcframework "${PODS_ROOT}/../../disprzSdk/Assets/Frameworks/jsinspector.xcframework" "disprzSdk" "framework" "ios-arm64" "ios-arm64_x86_64-simulator"
 install_xcframework "${PODS_ROOT}/../../disprzSdk/Assets/Frameworks/jsireact.xcframework" "disprzSdk" "framework" "ios-arm64_x86_64-simulator" "ios-arm64"
